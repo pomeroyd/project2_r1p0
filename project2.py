@@ -49,10 +49,10 @@ import matplotlib.pyplot as plt
 #%matplotlib inline
 
 ##Convert to grayscale
-import opencv as cv2
-bgr_image = X_train
-gray_image = cv2.cvtColor(bgr_image, cv2.COLOR_BGR2GRAY) #shape (32,32)
-gray_image = gray_image.reshape((32,32,1)) #shape (32,32,1)
+#import cv2
+#bgr_image = X_train
+#gray_image = cv2.cvtColor(bgr_image, cv2.COLOR_BGR2GRAY) #shape (32,32)
+#gray_image = gray_image.reshape((32,32,1)) #shape (32,32,1)
 
 import random
 import numpy as np
